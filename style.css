@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+.main-img {
+  width: 100%;
+  min-height: 40em;
+  margin: auto;
+  /*height: 600px;*/
+
+  background-image: url("/office-laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  background-repeat : no-repeat;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgba(0, 66, 37, 1);
+  padding-top: 35px;
+  padding-bottom: 10px;
+
+}
+h1 span {
+        border-bottom: 5px solid rgba(0, 66, 37, 1);
+      }
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-family: sans-serif;
+  font-size: 40px;
+  color: rgba(0, 66, 37, 1);
+}
+
+.topnav {
+  position: fixed;
+  width: 100%;
+margin-top: -10px;
+background-color: rgba(0, 66, 37, 0.5);
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: rgba(0, 66, 37, 0.5)*/;
+}
+
+.topnav li {
+  float: right;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.topnav li a:hover {
+  background-color: #111;
+}
+
+.container {
+  font-family: cursive;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+justify-content: space-around;
+height: 600px;
+padding-top: 35px;
+background-color: #F2FCF2;
+}
+
+.container h3 {
+  padding: 10px;
+}
+
+/*.background-info {
+  width: 300px;
+  height: 200px;
+  border: 1px solid blue;
+}*/
+
+.goal-info {
+  text-align: center;
+}
+
+.info {
+  background-color: white;
+  text-align: center;
+  /*height: 320px;
+  width: 400px;*/
+  border-bottom: 4px solid green;
+  padding: 0px 10px;
+  border-radius: 2%;
+  box-shadow: 5px 10px rgba(0, 66, 37, 0.5)/*#888888*/;
+}
+
+.container p {
+  margin: 5px;
+  text-decoration: none;
+
+}
+
+.skills-container {
+}
+
+.skills-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.html-skill {
+background-color: red;
+border-radius: 10%;
+}
+.css-skill {
+background-color: blue;
+border-radius: 10%;
+}
+.javascript-skill {
+background-color: orange;
+border-radius: 10%;
+}
+.react-skill {
+background-color: green;
+border-radius: 10%;
+}
+
+
+.resize-skills {
+  display: inline-block;
+  /*justify-content: space-between;*/
+  height: 50px;
+  padding: 16px;
+}
+
+
+
+footer {
+  /*position: fixed;*/
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  min-height: 3.5em;
+  background-color: rgba(0, 66, 37, 0.5);
+}
+.footer-copyright{
+  position: fixed;
+  text-align:center;
+  bottom: 5px;
+  background-color: rgba(0, 66, 37, 0.5);
+}
+
+.copyright span {
+  font-size: 0.9em;
+}
+
+.copy {
+  top: 25px;
+  position: relative;
+  font-size: 20px;
+}
+
+.socialmedia{
+  align-content: center;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.resize{
+  align-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width:480px) {
+  /* For mobile phones: */
+  body {
+    font-size: 1.1em;
+    width:100%;
+  }
+
+  .main-img {
+    background-image: url("/office-laptop.jpg");
+    background-position: center center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-repeat : no-repeat;
+  }
+
+  .resize-skills {
+    display: inline-block;
+    /*justify-content: space-between;*/
+    height: 30px;
+    padding: 16px;
+  }
+
+  .skills-box {
+    font-size: 0.7em;
+    width: 100%;
+  }
+
+.goal-info {
+
+}
+
+.info {
+  background-color: white;
+  text-align: center;
+  /*height: auto;*/
+  /*height: 320px;*/
+  /*width: 50%;*/
+  border-bottom: 4px solid green;
+  padding: 0px 10px;
+  border-radius: 2%;
+  box-shadow: 5px 10px rgba(0, 66, 37, 0.5)/*#888888*/;
+}
+
+}
+
+
+/* Below is CSS only for the project.html file.*/
+
+.project {
+  background-color: #F2FCF2;
+}
