@@ -1,0 +1,87 @@
+body {
+  background-color:rgba(0, 66, 37, 0.7);
+  margin: 0px;
+}
+
+
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header {
+  background-color: purple;
+  text-align: center;
+}
+
+.title-row {
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+
+.title-row img {
+  height: 30px;
+  padding: 0 15px;
+}
+.instructions-title {
+  display: inline;
+  font-size: 36px;
+  color: #00ffff;
+  font-family: 'Work Sans';
+}
+
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 25px;
+  font-family: 'Work Sans';
+  font-size: 36px;
+  color: #00ffff;
+}
+
+.instructions-text {
+  padding: 10px;
+font-family: ‘Work Sans’;
+font-size: 14px;
+color: #ffffff;
+}
+
+.door-row {
+  text-align: center;
+}
+
+.start-row {
+margin: auto;
+width: 120px;
+height: 45px;
+font-family: ‘Work Sans’;
+background-color: #eb6536;
+border-radius: 5px;
+padding-top: 14px;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+color: #010165;
+margin-bottom: 21px;
+cursor: pointer;
+}
+
+footer {
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgba(0, 66, 37, 0.7);
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  float: right;
+text-decoration: none;
+  font-size: 18px;
+}
